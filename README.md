@@ -1,5 +1,5 @@
 ## DatasetHelper
 
-This module batches a dataset and spawns a thread at the desired coroutine, using one batch per thread. Any data preprocessing/transformation should be done separately from the "run_threads" function.
+This module has a function to speed up asynchronous tasks (e.g downloading a (very large) dataset). Any data preprocessing/transformation should be done separately from the "run_threads" function.
 
 *Hamburger not included.*
